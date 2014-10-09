@@ -5,9 +5,9 @@ var Unoccupied = require('./Unoccupied.js');
 var Impassable = require('./Impassable.js');
 var HealthWell = require('./HealthWell.js');
 
-var DIAMOND_MINE_CAPTURE_DAMAGE = 20;
-var HERO_ATTACK_DAMAGE = 20;
-var HERO_FOCUSED_ATTACK_DAMAGE = 10;
+var DIAMOND_MINE_CAPTURE_DAMAGE = 30;
+var HERO_ATTACK_DAMAGE = 50;
+var HERO_FOCUSED_ATTACK_DAMAGE = 20;
 var HEALTH_WELL_HEAL_AMOUNT = 30;
 var HERO_HEAL_AMOUNT = 40;
 
