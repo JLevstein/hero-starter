@@ -86,7 +86,7 @@ var move = function(gameData, helpers) {
   var myHero = gameData.activeHero;
   if (myHero.health < 50) {
     return helpers.findNearestHealthWell(gameData);
-  else if (myHero.health < 70) {
+  } else if (myHero.health < 70 && myHero.health >= 50) {
     return helpers.findNearestNonTeamDiamondMine(gameData);
   } else {
     return helpers.findNearestWeakerEnemy(gameData);
